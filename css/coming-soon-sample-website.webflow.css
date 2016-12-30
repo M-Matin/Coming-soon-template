@@ -29,3 +29,26 @@
   width: 30%;
   height: 50px;
 }
+
+.teasor {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.paragraph {
+  margin-bottom: 30px;
+}
+
+.social-icon {
+  margin-right: 20px;
+}
+
+.copyright {
+  padding-top: 3px;
+  text-align: right;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
