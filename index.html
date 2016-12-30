@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com -->
-<!--  Last Published: Sat Dec 24 2016 01:40:09 GMT+0000 (UTC)  -->
+<!--  Last Published: Sat Dec 24 2016 02:53:22 GMT+0000 (UTC)  -->
 <html data-wf-page="585dc48d5d45728241fcaad1" data-wf-site="585dc48d5d45728241fcaad0">
 <head>
   <meta charset="utf-8">
@@ -18,13 +18,33 @@
   <div>
     <div class="w-container">
       <div><img src="images/3-0logo.png" width="100">
+        <h1>Heading</h1>
+        <h2>Heading</h2>
+        <div class="w-form">
+          <form data-name="Email Form" id="email-form" name="email-form">
+            <label for="email">Email Address:</label>
+            <input class="w-input" data-name="Email" id="email" maxlength="256" name="email" placeholder="Enter your email address" required="required" type="email">
+            <input class="w-button" data-wait="Please wait..." type="submit" value="Notify Me!">
+          </form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
   <div>
     <div class="w-container">
       <div class="w-row">
-        <div class="w-col w-col-4"></div>
+        <div class="w-col w-col-4">
+          <div><img src="images/design.png" width="53">
+            <h3>Design Sample</h3>
+            <p>Easily and securely share design with with one friend at the time.</p><a href="#">Learn More</a>
+          </div>
+        </div>
         <div class="w-col w-col-4"></div>
         <div class="w-col w-col-4"></div>
       </div>
