@@ -1,0 +1,31 @@
+.hero {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+.hero-wrapper {
+  width: 50%;
+}
+
+.all-h2 {
+  margin-bottom: 40px;
+}
+
+.field-lable {
+  margin-bottom: 10px;
+}
+
+.text-field {
+  width: 70%;
+  height: 50px;
+  float: left;
+}
+
+.submit-btn {
+  width: 30%;
+  height: 50px;
+}

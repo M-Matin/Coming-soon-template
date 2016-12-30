@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com -->
-<!--  Last Published: Sat Dec 24 2016 02:53:22 GMT+0000 (UTC)  -->
+<!--  Last Published: Sat Dec 24 2016 03:35:09 GMT+0000 (UTC)  -->
 <html data-wf-page="585dc48d5d45728241fcaad1" data-wf-site="585dc48d5d45728241fcaad0">
 <head>
   <meta charset="utf-8">
@@ -15,16 +15,16 @@
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
 </head>
 <body>
-  <div>
+  <div class="hero">
     <div class="w-container">
-      <div><img src="images/3-0logo.png" width="100">
+      <div class="hero-wrapper"><img class="logo" src="images/3-0logo.png" width="100">
         <h1>Heading</h1>
-        <h2>Heading</h2>
+        <h2 class="all-h2">Heading</h2>
         <div class="w-form">
-          <form data-name="Email Form" id="email-form" name="email-form">
-            <label for="email">Email Address:</label>
-            <input class="w-input" data-name="Email" id="email" maxlength="256" name="email" placeholder="Enter your email address" required="required" type="email">
-            <input class="w-button" data-wait="Please wait..." type="submit" value="Notify Me!">
+          <form class="w-clearfix" data-name="Email Form" id="email-form" name="email-form">
+            <label class="field-lable" for="email">Email Address:</label>
+            <input class="text-field w-input" data-name="Email" id="email" maxlength="256" name="email" placeholder="Enter your email address" required="required" type="email">
+            <input class="submit-btn w-button" data-wait="Please wait..." type="submit" value="Notify Me!">
           </form>
           <div class="w-form-done">
             <div>Thank you! Your submission has been received!</div>
@@ -40,21 +40,40 @@
     <div class="w-container">
       <div class="w-row">
         <div class="w-col w-col-4">
-          <div><img src="images/design.png" width="53">
+          <div><img src="images/design.png" width="45">
             <h3>Design Sample</h3>
             <p>Easily and securely share design with with one friend at the time.</p><a href="#">Learn More</a>
           </div>
         </div>
-        <div class="w-col w-col-4"></div>
-        <div class="w-col w-col-4"></div>
+        <div class="w-col w-col-4">
+          <div><img src="images/message.png" width="46">
+            <h3>Meaningful Connection</h3>
+            <p>Make meaningful and smart connection with your friends.</p><a href="#">Learn More</a>
+          </div>
+        </div>
+        <div class="w-col w-col-4">
+          <div><img src="images/template.png" width="45">
+            <h3>Free Template</h3>
+            <p>Launch your business website faster, cleaner, and yet affordable.</p><a href="#">Learn More</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
   <div>
     <div class="w-container">
       <div class="w-row">
-        <div class="w-col w-col-6"></div>
-        <div class="w-col w-col-6"></div>
+        <div class="w-col w-col-6">
+          <a class="w-inline-block" href="#"><img src="images/FB.png" width="23">
+          </a>
+          <a class="w-inline-block" href="#"><img src="images/TW.png" width="23">
+          </a>
+          <a class="w-inline-block" href="#"><img src="images/Google.png" width="23">
+          </a>
+        </div>
+        <div class="w-col w-col-6">
+          <div>Copyright ©&nbsp;1998–2016</div>
+        </div>
       </div>
     </div>
   </div>
