@@ -1,3 +1,7 @@
+p {
+  margin-bottom: 10px;
+}
+
 .hero {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -30,17 +34,34 @@
   color: hsla(0, 0%, 100%, .7);
   font-size: 13px;
   font-weight: 100;
+  text-transform: uppercase;
 }
 
 .text-field {
   width: 70%;
   height: 50px;
   float: left;
+  border: 2px solid #fff;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  color: #181818;
+  font-weight: 300;
 }
 
 .submit-btn {
   width: 30%;
   height: 50px;
+  border: 2px solid #fff;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #92d3a7;
+  -webkit-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+}
+
+.submit-btn:hover {
+  border-color: #fff;
+  background-color: #a7f1bf;
 }
 
 .teasor {
@@ -50,6 +71,7 @@
 
 .paragraph {
   margin-bottom: 30px;
+  font-size: 16px;
 }
 
 .social-icon {
@@ -62,8 +84,9 @@
 }
 
 .footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f7f7f7;
 }
 
 .body {
@@ -76,4 +99,19 @@
   font-size: 58px;
   line-height: 60px;
   font-weight: 200;
+}
+
+.h3 {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.link {
+  color: #92d3a7;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
