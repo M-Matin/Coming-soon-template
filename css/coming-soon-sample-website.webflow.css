@@ -78,8 +78,19 @@ p {
   margin-right: 20px;
 }
 
+.social-icon:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.social-icon.fb {
+  margin-right: 0px;
+}
+
 .copyright {
   padding-top: 3px;
+  font-weight: 400;
   text-align: right;
 }
 
@@ -114,4 +125,69 @@ p {
 
 .link:hover {
   text-decoration: underline;
+}
+
+.tw {
+  margin-right: 0px;
+}
+
+.teaser-wrapper {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    background-image: -webkit-linear-gradient(90deg, #000, transparent), url('../images/home-banner.jpg');
+    background-image: linear-gradient(0deg, #000, transparent), url('../images/home-banner.jpg');
+    background-position: 0px 0px, 81% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, scroll;
+  }
+  .hero-wrapper {
+    width: 100%;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .body {
+    text-align: center;
+  }
+  .teaser-wrapper {
+    margin-bottom: 60px;
+    padding-right: 150px;
+    padding-left: 150px;
+  }
+}
+
+@media (max-width: 479px) {
+  .hero-wrapper {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .all-h2 {
+    font-size: 18px;
+  }
+  .text-field {
+    width: 100%;
+    margin-bottom: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 0px;
+  }
+  .submit-btn {
+    width: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 3px;
+    font-size: 11px;
+  }
+  .h1 {
+    font-size: 46px;
+  }
+  .teaser-wrapper {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
