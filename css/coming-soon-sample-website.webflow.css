@@ -34,6 +34,7 @@ p {
   color: hsla(0, 0%, 100%, .7);
   font-size: 13px;
   font-weight: 100;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 
@@ -95,6 +96,10 @@ p {
 }
 
 .footer {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #f7f7f7;
