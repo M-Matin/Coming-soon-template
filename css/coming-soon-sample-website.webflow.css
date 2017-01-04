@@ -3,11 +3,12 @@ p {
 }
 
 .hero {
+  height: 60%;
   padding-top: 60px;
   padding-bottom: 60px;
   background-image: -webkit-linear-gradient(350deg, #000, transparent), url('../images/home-banner.jpg');
   background-image: linear-gradient(100deg, #000, transparent), url('../images/home-banner.jpg');
-  background-position: 0px 0px, 81% 50%;
+  background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, scroll;
@@ -66,8 +67,8 @@ p {
 }
 
 .teasor {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .paragraph {
@@ -169,7 +170,9 @@ p {
 
 @media (max-width: 479px) {
   .hero-wrapper {
+    margin-bottom: 0px;
     padding-right: 20px;
+    padding-bottom: 0px;
     padding-left: 20px;
   }
   .all-h2 {
