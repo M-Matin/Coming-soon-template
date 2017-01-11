@@ -3,7 +3,7 @@ p {
 }
 
 .hero {
-  height: 60%;
+  height: 101%;
   padding-top: 60px;
   padding-bottom: 60px;
   background-image: -webkit-linear-gradient(350deg, #000, transparent), url('../images/home-banner.jpg');
@@ -72,8 +72,10 @@ p {
 }
 
 .paragraph {
-  margin-bottom: 30px;
-  font-size: 16px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 400;
 }
 
 .social-icon {
@@ -97,10 +99,6 @@ p {
 }
 
 .footer {
-  position: fixed;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #f7f7f7;
@@ -119,12 +117,15 @@ p {
 }
 
 .h3 {
-  font-size: 20px;
-  line-height: 26px;
+  margin-top: 41px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .link {
   color: #92d3a7;
+  font-size: 20px;
   font-weight: 400;
   text-decoration: none;
 }
@@ -138,6 +139,8 @@ p {
 }
 
 .teaser-wrapper {
+  margin-top: 40px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
