@@ -3,4 +3,6 @@
 
 These are pictures of how it looks like in different size of devices.
 
-![pic](images/desktop.png) 
+![pic](images/desktop.png)
+![pic](images/tablet.png)
+![pic](images/phone.png)
